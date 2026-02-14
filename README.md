@@ -13,12 +13,12 @@ El objetivo de este proyecto fue demostrar que no siempre se necesita JavaScript
 
 ## 🛠️ Tecnologías utilizadas
 - **HTML5:** Estructura semántica.
-- **CSS3:** Estilos, animaciones, Flexbox y Grid.
+- **CSS3:** Estilos, animaciones, Flexbox.
 - **Google Fonts:** Tipografía "Nunito".
 - **Font Awesome:** Iconografía profesional.
 
 ## 📸 Demo
-> [AQUÍ PODÉS PONER EL LINK DE VERCEL CUANDO LO SUBAS]
+> [Ver sitio en vivo](https://pagina-javascript-eta.vercel.app)
 
 ---
 *Este proyecto es una muestra de mis habilidades actuales en maquetación. ¡Próximamente estaré integrando lógica con JavaScript para llevarlo al siguiente nivel!*
