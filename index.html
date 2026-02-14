@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN de font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="./imagenes/hero-img.png" type="image/x-icon">
+    <title>Javascript</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <img src="./imagenes/logo.png" class="logo" alt="logo">
+        <label for="toggle-menu" class="label-menu"><i class="fas fa-bars"></i>
+        </label>
+        <input type="checkbox" id="toggle-menu">
+        <nav class="navbar">
+            <ul class="list-menu">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#lineup">Line-up</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+            </ul>
+        </nav>
+    </header>
+        <!-- Hero-->
+        <main>
+            <section>
+                <div class="container-hero" id="hero">
+                    <div class="hero-img"></div>
+                    <div class="hero-text">
+                        <h1><span class="yellowspan">Javascript</span> Summit 2026</h1>
+                        <p>Nucba Summit sobre Javascript</p>
+                        <button class="btn">Ver Speakers</button>
+                    </div>
+                </div>
+            </section>
+            <!-- Speakers-->
+            <section class="section-speakers" id="speakers">
+                <h2>Speakers</h2>
+                <div class="container-speakers-cards">
+                    <div class="card">
+                        <div class="card-img"></div>
+                        <div><h3>Nombre</h3>
+                        <p>Descripción</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"></div>
+                        <div><h3>Nombre</h3>
+                        <p>Descripción</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"></div>
+                        <div><h3>Nombre</h3>
+                        <p>Descripción</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"></div>
+                        <div><h3>Nombre</h3>
+                        <p>Descripción</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"></div>
+                        <div><h3>Nombre</h3>
+                        <p>Descripción</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"> <span>+</span> </div>
+                        <div><h3>Nombre</h3>
+                        <p>Descripción</p>
+                        </div>
+                    </div>
+                    <button class="btn">Sumarme</button>
+                </div>
+            </section>
+
+            <!-- About-->
+            <section class="section-about" id="about">
+                <div class="container-about">
+                    <div class="img-about"></div>
+                    <div class="text-about">
+                        <h2>#Somos <span class="yellowspan">Nucba</span></h2>
+                        <p>Seguí el evento en vivo por las redes sociales de <span class="yellowspan">Nucba</span> y utiliza el hashtag para enterarte todo lo que sucede</p>
+                        <div class="continer-cards">
+                        <div class="card-about">2 <span> </span> <span> </span> Días</div>
+                        <div class="card-about">5+ <span></span> Speaker</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Line-up-->
+            <section class="section-lineup" id="lineup">
+                <div class="lineup-text">
+                    <h2>Line-up</h2>
+                    <p>Nuestro Summit online abierto y gratuito, reune a referentes de empresas líderes de mercado, para compartir su conocimiento sobre Javscript</p>
+                </div>
+                <p>Domingo 18 de Diciembre 2026</p>
+                <div class="container-cards">
+                    <div class="lineup-card">
+                        <div class="lineup-time">
+                            <p>09:00- 10:00hs</p>
+                        </div>
+                        <div class="lineup-contenido">
+                            <h3>Onboarding</h3>
+                            <p>Dwayne "The rock" Johnson</p>
+                        </div>
+                    </div>
+                    <div class="lineup-card">
+                        <div class="lineup-time">
+                            <p>10:00 - 14:00</p>
+                        </div>
+                        <div class="lineup-contenido">
+                            <h3>El futuro de Js</h3>
+                            <p>Elon Musk y el Doc. Brown</p>
+                        </div>
+                    </div>
+                    <div class="lineup-card">
+                        <div class="lineup-time">
+                            <p>14:00 - 17:00</p>
+                        </div>
+                        <div class="lineup-contenido">
+                            <h3>Banderas y Js</h3>
+                            <p>Sheldon Cooper</p>
+                        </div>
+                    </div>
+                    <div class="lineup-card">
+                        <div class="lineup-time">
+                            <p>17:00 - 24:00</p>
+                        </div>
+                        <div class="lineup-contenido">
+                            <h3>Entendiendo Js</h3>
+                            <p>Sundar Pichai</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+            <span class="divisor"></span>
+            </div>
+            <section>
+                <div class="conteiner-footer">
+                    <div class="footer-text"><p>Felicitaciones por terminar el modulo de diseño web. Bienvenidos al
+					maravilloso mundo de Javascript.</p>
+                    </div>
+                    <div class="footer-adicional">
+                        <div class="redes">
+                            <i class="fab fa-facebook"><a href="#"></a></i>
+                            <i class="fab fa-twitter"><a href="#"></a></i>
+                        </div>
+                        <div>
+                            <p>NucbajsSummit@2026</p>
+                        </div>
+                        <div class="lista-footer">
+                            <li>Privacidad</li>
+                            <li>Términos de uso</li>
+                            <li>Contactenos</li>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+</body>
+</html>
